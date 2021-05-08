@@ -1,8 +1,8 @@
 import './style.css'
-import * as THREE from '../node_modules/three/build/three.module'
-import { OrbitControls } from '../node_modules/three/examples/jsm/controls/OrbitControls'
-import { Water } from '../node_modules/three/examples/jsm/objects/Water'
-import { Sky } from '../node_modules/three/examples/jsm/objects/Sky'
+import * as THREE from 'https://unpkg.com/three@0.126.1/build/three.module.js'
+import { OrbitControls } from 'https://unpkg.com/three@0.126.1/examples/jsm/controls/OrbitControls.js'
+import { Water } from 'https://unpkg.com/three@0.126.1//examples/jsm/objects/Water'
+import { Sky } from 'https://unpkg.com/three@0.126.1//examples/jsm/objects/Sky'
 
 console.log('hello');
 
