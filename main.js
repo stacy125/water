@@ -4,7 +4,7 @@ import { OrbitControls } from '../node_modules/three/examples/jsm/controls/Orbit
 import { Water } from '../node_modules/three/examples/jsm/objects/Water'
 import { Sky } from '../node_modules/three/examples/jsm/objects/Sky'
 
-
+console.log('hello');
 
 let container, stats;
 let camera, scene, renderer;
@@ -37,7 +37,7 @@ function init() {
   // creating water
   const waterGeometry = new THREE.PlaneGeometry(10000, 10000);
   water = new Water(waterGeometry,
-    
+
     {
       textureWidth: 512,
       textureHeight: 512,
