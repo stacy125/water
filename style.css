@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+}
+
+.icons {
+  position: absolute;
+  margin-left: 5%;
+}
+
+#info {
+  position: absolute;
+  margin-left: 75%;
+  font-size: 30px;
+  color: rgb(122, 1, 235);
+}
+
+.button {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 25%;
+  border: 3px solid black;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #27BDF9;
+  color: rgb(122, 1, 235);
+
+}
