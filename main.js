@@ -1,5 +1,5 @@
 import './style.css'
-import * as THREE from 'three'
+import * as THREE from '../node_modules/three/build/three.module'
 import { OrbitControls } from '../node_modules/three/examples/jsm/controls/OrbitControls'
 import { Water } from '../node_modules/three/examples/jsm/objects/Water'
 import { Sky } from '../node_modules/three/examples/jsm/objects/Sky'
