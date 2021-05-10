@@ -41,7 +41,7 @@ function init() {
     {
       textureWidth: 512,
       textureHeight: 512,
-      waterNormals: new THREE.TextureLoader().load('waterNormals.jpg', function(texture) {
+      waterNormals: new THREE.TextureLoader().load('./waterNormals.jpg', function(texture) {
         texture.wrap5 = texture.wrapT = THREE.RepeatWrapping;
       }),
       sunDirection: new THREE.Vector3(),
